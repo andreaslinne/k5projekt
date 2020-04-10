@@ -73,7 +73,7 @@ h1,h1,h3,h4,h4,h6,br,button{
 
   .shopIMG{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);    
+    grid-template-columns: 50% 50%;    
     margin-top:80px ;
     text-align: center; 
   }
@@ -81,26 +81,33 @@ h1,h1,h3,h4,h4,h6,br,button{
   .content1{
     margin-left: 10px;
     margin-right:30px;
-    height: 600px;
-    width: 800px;
+    height: 34vh;
+    width: 44vh;
   }
 
 
   .content2{
     margin-left: 30px;
     margin-right:30px;
-    height: 600px;
-    width: 800px;
+    height: 34vh;
+    width: 44vh;
   }
 
   .containerPriser{
     display: grid;
-    grid-template-columns:[pris1] 50% [pris2] 50%; 
+    grid-template-columns: 50% 50%; 
     margin-left: 6%;
+    margin-bottom: 40px;
   }
 
-  h3 a{
-    color:darkblue;
+  .shopLink{
+     color:darkorange;
+     font-size: 18px;
+     font-weight: bold;
+   }
+   .shopLink:hover{
+     color: red;
+     font-size: 20px;
    }
  
   .containerFotter{
@@ -134,16 +141,19 @@ h1,h1,h3,h4,h4,h6,br,button{
   .containerShop{
     display: grid;
     grid-template-columns: 50% 50%;  
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .shopContainerContentImage
   {
-    height: 70vh;
-    width: 80vh;
-    margin: 60px;
+    height: 300px;
+    width: 400px;
   }
+
   .shopContainerContentText{
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 110px;
   }
   
   .AboutusHeaderIMG{
@@ -170,25 +180,19 @@ h1,h1,h3,h4,h4,h6,br,button{
     margin-right: ;
    }
 
-   .containerPriser{
-     font-size: 10px;
+   .shopContainerContentImage{
+     height: 120px;
+     width: 150px;
+     margin-right: 50px;
    }
 
-   li a {
-    font-size: 20px;
-    padding-left: 400px;
-    margin-left: -300px;
-
-  }        
-  .liFotter {
-  font-size: 10px;
-  }
-  p{
-    font-size: 10px;
-  }
-  h2{
-    font-size: 14px;
-  }
-
-  }
+   .shopContainerContentText{
+     font-size: 12px;
+    margin-left: 50px;
+    }
+    
+    p{
+      margin-left: 10px;
+    }
+  
 }
